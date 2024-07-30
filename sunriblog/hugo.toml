@@ -1,4 +1,4 @@
-baseURL = "sunri.ink"
+baseURL = "https://sunri.ink/"
 languageCode = "en-us"
 theme = "anubis2"
 title = "SunR1's Internet Garden"
