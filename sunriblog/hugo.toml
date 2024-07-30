@@ -1,4 +1,4 @@
-baseURL = "https://hugo-theme-anubis2.netlify.app/"
+baseURL = "sunri.ink"
 languageCode = "en-us"
 theme = "anubis2"
 title = "SunR1's Internet Garden"
