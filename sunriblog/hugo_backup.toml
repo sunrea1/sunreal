@@ -1,5 +1,5 @@
 baseURL = "https://sunri.ink/"
-languageCode = "zh-cn"
+languageCode = "en-us"
 theme = "anubis2"
 title = "SunR1's Internet Garden"
 
@@ -19,15 +19,12 @@ style = 'base16-snazzy' # Highlight.js style
 [[menu.main]]
 identifier = "home"
 name = "Home"
-pageRef = '/'
+url = "https://sunri.ink/"
 weight = 1
 
 [[menu.main]]
 identifier = "blog"
 name = "Blog"
-pageRef = '/blog'
+url = "https://sunri.ink/blog"
 weight = 2
 
-[[menu.main]]
-name = "About"
-pageRef = '/about'
