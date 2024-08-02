@@ -19,12 +19,12 @@ style = 'base16-snazzy' # Highlight.js style
 [[menu.main]]
 identifier = "home"
 name = "Home"
-url = "/"
+url = "https://sunri.ink/"
 weight = 1
 
 [[menu.main]]
 identifier = "blog"
 name = "Blog"
-url = "/blog"
+url = "https://sunri.ink/blog"
 weight = 2
 
