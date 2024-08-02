@@ -2,7 +2,7 @@ baseURL = "https://sunri.ink/"
 title = "SunR1's Internet Garden"
 theme = "hugo-theme-ladder"
 license = "MIT"
-homepage = "https://sunri.ink/"
+homepage = "https://sunri.ink/blog"
 defaultContentLanguage = "en"
 # googleAnalytics = "G-7E4JNTL3ES"
 # enableRobotsTXT = true
@@ -11,8 +11,7 @@ hasCJKLanguage = true
 # copyright = "2023 GuangzhengLi All rights reserved"
 
 [Author]
-name = "Guangzheng Li"
-email = "iguangzhengli@gmail.com"
+name = "SunR1"
 
 [params]
 brand = "HOME"
