@@ -1,38 +1,51 @@
 baseURL = "https://sunri.ink/"
-languageCode = "zh-cn"
-# theme = "anubis2"
-theme = "hugo-theme-ladder"
 title = "SunR1's Internet Garden"
+theme = "hugo-theme-ladder"
+license = "MIT"
+homepage = "https://sunri.ink/"
+defaultContentLanguage = "en"
+# googleAnalytics = "G-7E4JNTL3ES"
+# enableRobotsTXT = true
+paginate = 8
+hasCJKLanguage = true
+# copyright = "2023 GuangzhengLi All rights reserved"
 
-colorTheme = "auto"
-colorThemeSwitcher = true
+[Author]
+name = "Guangzheng Li"
+email = "iguangzhengli@gmail.com"
 
-[author]
-name = "SunR1"
+[params]
+brand = "HOME"
+# avatarURL = "/images/avatar.png"
+author = "SunR1"
+# authorDescription = "A clean, fast hugo theme focused on Reading"
+# info = "Build a free and beautiful blog site to record your thoughts and increase your influence"
+# favicon = "/images/avatar.ico"
+darkModeTheme = "auto"
 
-[markup.goldmark.renderer]
-unsafe = true # true | false; Enable unsafe mode to have a better experience
+  [params.options]
+  showDarkMode = true
+  enableImgZooming = true
+  enableMultiLang = false
+  showMetaTags = false
 
-[markup.highlight]
-style = 'base16-snazzy' # Highlight.js style
+[languages.en]
+languageName = "English"
 
-# [menu]
-# [[menu.main]]
-# name = "Home"
-# url = "/"
-# weight = 1
-
-[[menu.main]]
+[[languages.en.menu.main]]
 name = "Blog"
 url = "/blog"
 weight = 1
 
-[[menu.main]]
-name = "About"
-pageRef = "/about"
+[[languages.en.menu.main]]
+name = "Tags"
+url = "/tags"
 weight = 2
 
-[[menu.main]]
-name = "Learn"
-pageRef = "/learn"
+[[languages.en.menu.main]]
+name = "Archive"
+url = "/archives"
 weight = 3
+
+
+
