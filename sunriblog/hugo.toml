@@ -20,7 +20,7 @@ author = "SunR1"
 # authorDescription = "A clean, fast hugo theme focused on Reading"
 # info = "Build a free and beautiful blog site to record your thoughts and increase your influence"
 # favicon = "/images/avatar.ico"
-darkModeTheme = "auto"
+darkModeTheme = "data-dark-mode"
 
   [params.options]
   showDarkMode = true
