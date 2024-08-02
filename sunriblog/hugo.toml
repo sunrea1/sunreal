@@ -1,9 +1,10 @@
-baseURL = 'https//sunri.ink/'
+baseURL = "https://sunri.ink/"
 languageCode = "zh-cn"
-theme = "anubis2"
+# theme = "anubis2"
+theme = "hugo-theme-ladder"
 title = "SunR1's Internet Garden"
 
-colorTheme = "light"
+colorTheme = "auto"
 colorThemeSwitcher = true
 
 [author]
@@ -15,17 +16,23 @@ unsafe = true # true | false; Enable unsafe mode to have a better experience
 [markup.highlight]
 style = 'base16-snazzy' # Highlight.js style
 
-[menu]
-[[menu.main]]
-name = "Home"
-pageRef = '/'
-weight = 1
+# [menu]
+# [[menu.main]]
+# name = "Home"
+# url = "/"
+# weight = 1
 
 [[menu.main]]
 name = "Blog"
-pageRef = '/blog'
-weight = 2
+url = "/blog"
+weight = 1
 
 [[menu.main]]
 name = "About"
-pageRef = '/about'
+pageRef = "/about"
+weight = 2
+
+[[menu.main]]
+name = "Learn"
+pageRef = "/learn"
+weight = 3
