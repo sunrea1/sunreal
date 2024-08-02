@@ -42,9 +42,14 @@ url = "/tags"
 weight = 2
 
 [[languages.en.menu.main]]
+name = "Learn"
+url = "/learn"
+weight = 3
+
+[[languages.en.menu.main]]
 name = "Archive"
 url = "/archives"
-weight = 3
+weight = 4
 
 
 
